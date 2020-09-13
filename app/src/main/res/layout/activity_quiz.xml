@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarFadeDuration="1000"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash_bg"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/radio_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/rg1Q"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg1A"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioB1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg1B"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg1C"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:layout_marginBottom="@dimen/margin16dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg1D"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/radio_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/rg2Q"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg2A"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioB2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg2B"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg2C"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:layout_marginBottom="@dimen/margin16dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg2D"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/check_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/padding8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/cb1Q"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb1A"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb1B"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkC1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb1C"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb1D"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quiz_et1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding4dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/et1Q"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/res_et1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:hint="@string/type_here_hint_et1"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:paddingStart="@dimen/padding4dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="#688eff"
+                    android:textSize="16sp"
+                    tools:targetApi="o" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/radio_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/rg3Q"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg3A"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg3B"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioC3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/rg3C"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="24dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg3D"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quiz_et2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding4dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/et2Q"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/res_et2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:hint="@string/type_here_hint_et2"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="@dimen/padding4dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="#688eff"
+                    android:textSize="16sp"
+                    tools:targetApi="o" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/radio_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/rg4Q"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp">
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg4A"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg4B"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg4C"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioD4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin16dp"
+                        android:layout_marginEnd="@dimen/margin8dp"
+                        android:layout_marginBottom="@dimen/margin16dp"
+                        android:fontFamily="@font/roboto_med"
+                        android:paddingStart="@dimen/padding24dp"
+                        android:paddingTop="@dimen/padding8dp"
+                        android:paddingEnd="@dimen/padding8dp"
+                        android:paddingBottom="@dimen/padding8dp"
+                        android:text="@string/rg4D"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardQ8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/check_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin8dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:padding="@dimen/padding8dp"
+                    android:text="@string/cb2Q"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb2A"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb2B"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkC2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb2C"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin16dp"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:layout_marginEnd="@dimen/margin16dp"
+                    android:layout_marginBottom="@dimen/margin16dp"
+                    android:fontFamily="@font/roboto_med"
+                    android:paddingStart="@dimen/padding24dp"
+                    android:paddingTop="@dimen/padding8dp"
+                    android:paddingEnd="@dimen/padding8dp"
+                    android:paddingBottom="@dimen/padding8dp"
+                    android:text="@string/cb2D"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/margin8dp"
+            android:layout_marginEnd="@dimen/margin8dp"
+            android:layout_marginBottom="@dimen/margin4dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding4dp">
+
+            <Button
+                android:id="@+id/submit_button"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin4dp"
+                android:layout_marginEnd="@dimen/margin8dp"
+                android:layout_marginBottom="@dimen/margin4dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_style2"
+                android:fontFamily="@font/roboto_med"
+                android:text="@string/submit_btn_text"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/restart_button"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin4dp"
+                android:layout_marginEnd="@dimen/margin8dp"
+                android:layout_marginBottom="@dimen/margin4dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_style2"
+                android:fontFamily="@font/roboto_med"
+                android:text="@string/restart_btn_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

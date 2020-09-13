@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1ca6d6</color>
+    <color name="colorPrimaryDark">#0077a4</color>
+    <color name="colorAccent">#1961df</color>
+    <color name="tag_textcolor">#E0E0E0</color>
+
+    <color name="wrongCardColor">#FF8A80</color>
+    <color name="correctColorCard">#B9F6CA</color>
+    <color name="noAttemptCardColor">#F4FF81</color>
+
+    <color name="ic_launcher_background">#1CA6D6</color>
+</resources>

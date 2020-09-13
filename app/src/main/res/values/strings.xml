@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">The Fizz Quiz</string>
+
+    <string name="rg1Q">Which of the following is the highest peak of Satpura Range?</string>
+    <string name="rg1A">Gurushikhar</string>
+    <string name="rg1B">Dhupgarh</string>
+    <string name="rg1C">Panchmarhi</string>
+    <string name="rg1D">Mahendragiri</string>
+
+    <string name="rg2Q">The famous hill-station \‘Kodaikanal\’ lies in</string>
+    <string name="rg2A">Nilgiri Hills</string>
+    <string name="rg2B">Palani Hills</string>
+    <string name="rg2C">Cardamom Hills</string>
+    <string name="rg2D">Javadi Hills</string>
+
+    <string name="cb1Q">Which of the states boundaries are shared with Himalayan Mountain Range?</string>
+    <string name="cb1A">Madhya Pradesh</string>
+    <string name="cb1B">Uttarakhand</string>
+    <string name="cb1C">Bihar</string>
+    <string name="cb1D">Manipur</string>
+
+    <string name="et1Q">How many states of India share its border with Bhutan?</string>
+
+    <string name="rg3Q">\“National Seed Research and Training Centre\“ is located at?</string>
+    <string name="rg3A">Lucknow</string>
+    <string name="rg3B">Pune</string>
+    <string name="rg3C">Varanasi</string>
+    <string name="rg3D">Bhopal</string>
+
+    <string name="et2Q">Longest river in the Unites States is</string>
+
+    <string name="rg4Q">Which city has the largest population in United States?</string>
+    <string name="rg4A">Chicago</string>
+    <string name="rg4B">Los Angeles</string>
+    <string name="rg4C">Phoenix</string>
+    <string name="rg4D">New York</string>
+
+    <string name="cb2Q">Which of the states has same name in their capitals?</string>
+    <string name="cb2A">Madhya Pradesh</string>
+    <string name="cb2B">Haryana</string>
+    <string name="cb2C">Punjab</string>
+    <string name="cb2D">Himachal Pradesh</string>
+
+    <string name="no_content_desc">No Content description</string>
+    <string name="rules_text">Rules</string>
+    <string name="start_text">Start</string>
+    <string name="quiz_title_text">The Quiz</string>
+    <string name="quiz_tag_text">Fizz one!</string>
+    <string name="quiz_rules">1. All Questions are compulsory. \n2. There are total 8 questions. \n3. It comprises of multiple choice, single choice and fill up type questions of 20, and 10 points respectively. \n4. Pressing back button will reset you progress.</string>
+    <string name="restart_btn_text">restart</string>
+    <string name="submit_btn_text">submit</string>
+    <string name="type_here_hint_et2">Type here</string>
+    <string name="type_here_hint_et1">Type here</string>
+</resources>
